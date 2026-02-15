@@ -26,6 +26,8 @@ namespace VTS.Core {
 		ArtMeshColorPreset = 16,          // Loads the recorded ArtMesh multiply/screen color preset.
 		ToggleTracker = 17,               // Toggles the tracking on/off. Can be webcam or USB/WiFi connected phone.
 		ToggleTwitchFeature = 18,         // Toggles a Twitch feature (for example Emote Dropper) on/off.
-		LoadEffectPreset = 19             // Loads post processing effect preset.
+		LoadEffectPreset = 19,            // Loads post processing effect preset.
+		ToggleLive2DEditorAPI = 20,       // Toggles the Live2D Cubism Editor connection on/off.
+		WebItemAction = 21                // Executes a hotkey in the given web item.
 	}
 }
